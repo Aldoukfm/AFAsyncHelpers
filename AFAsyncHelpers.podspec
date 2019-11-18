@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   
   spec.description  = "Make async operations with promise programming style."
 
-  spec.homepage     = "https://github.com/Aldoukfm/AFAsyncHelpers"
+  spec.homepage     = "https://github.com/Aldoukfm/AFAsyncHelpers.git"
   
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
@@ -16,11 +16,11 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Aldoukfm/AFAsyncHelpers.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "AFAsyncHelpers/**/*.{h,m}"
+  spec.source_files  = "AFAsyncHelpers/*.{swift}"
   
   # s.dependency "JSONKit", "~> 1.4"
   # s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
-  spec.swift_version = "5"
+  #spec.swift_version = "5"
 
 end
