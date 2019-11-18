@@ -1,6 +1,5 @@
 //
-//  QueueController2.swift
-//  Lunch Box
+//  QueueController.swift
 //
 //  Created by Aldo Fuentes on 7/5/19.
 //  Copyright © 2019 aldofuentes. All rights reserved.

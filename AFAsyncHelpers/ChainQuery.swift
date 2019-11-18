@@ -1,6 +1,5 @@
 //
 //  ChainQuery.swift
-//  Lunch Box
 //
 //  Created by Aldo Fuentes on 7/25/19.
 //  Copyright © 2019 aldofuentes. All rights reserved.

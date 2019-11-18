@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		A0787CC1238252F2006BC1B0 /* AFAsyncHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = A0787CBF238252F2006BC1B0 /* AFAsyncHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0787CD023826582006BC1B0 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0787CC723826582006BC1B0 /* Query.swift */; };
+		A0787CD123826582006BC1B0 /* ObservableOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0787CC823826582006BC1B0 /* ObservableOperation.swift */; };
+		A0787CD223826582006BC1B0 /* ChainQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0787CC923826582006BC1B0 /* ChainQuery.swift */; };
+		A0787CD323826582006BC1B0 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0787CCA23826582006BC1B0 /* AsyncOperation.swift */; };
+		A0787CD423826582006BC1B0 /* QueueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0787CCB23826582006BC1B0 /* QueueController.swift */; };
+		A0787CD523826582006BC1B0 /* ObservableOperationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0787CCC23826582006BC1B0 /* ObservableOperationController.swift */; };
+		A0787CD623826582006BC1B0 /* QueryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0787CCD23826582006BC1B0 /* QueryError.swift */; };
+		A0787CD823826582006BC1B0 /* ObserverWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0787CCF23826582006BC1B0 /* ObserverWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A0787CBC238252F2006BC1B0 /* AFAsyncHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFAsyncHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0787CBF238252F2006BC1B0 /* AFAsyncHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAsyncHelpers.h; sourceTree = "<group>"; };
 		A0787CC0238252F2006BC1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0787CC723826582006BC1B0 /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		A0787CC823826582006BC1B0 /* ObservableOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableOperation.swift; sourceTree = "<group>"; };
+		A0787CC923826582006BC1B0 /* ChainQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainQuery.swift; sourceTree = "<group>"; };
+		A0787CCA23826582006BC1B0 /* AsyncOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
+		A0787CCB23826582006BC1B0 /* QueueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueController.swift; sourceTree = "<group>"; };
+		A0787CCC23826582006BC1B0 /* ObservableOperationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableOperationController.swift; sourceTree = "<group>"; };
+		A0787CCD23826582006BC1B0 /* QueryError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryError.swift; sourceTree = "<group>"; };
+		A0787CCF23826582006BC1B0 /* ObserverWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +62,14 @@
 		A0787CBE238252F2006BC1B0 /* AFAsyncHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				A0787CCA23826582006BC1B0 /* AsyncOperation.swift */,
+				A0787CC923826582006BC1B0 /* ChainQuery.swift */,
+				A0787CC823826582006BC1B0 /* ObservableOperation.swift */,
+				A0787CCC23826582006BC1B0 /* ObservableOperationController.swift */,
+				A0787CCF23826582006BC1B0 /* ObserverWrapper.swift */,
+				A0787CC723826582006BC1B0 /* Query.swift */,
+				A0787CCD23826582006BC1B0 /* QueryError.swift */,
+				A0787CCB23826582006BC1B0 /* QueueController.swift */,
 				A0787CBF238252F2006BC1B0 /* AFAsyncHelpers.h */,
 				A0787CC0238252F2006BC1B0 /* Info.plist */,
 			);
@@ -95,6 +119,7 @@
 				TargetAttributes = {
 					A0787CBB238252F2006BC1B0 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -131,6 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0787CD523826582006BC1B0 /* ObservableOperationController.swift in Sources */,
+				A0787CD823826582006BC1B0 /* ObserverWrapper.swift in Sources */,
+				A0787CD223826582006BC1B0 /* ChainQuery.swift in Sources */,
+				A0787CD623826582006BC1B0 /* QueryError.swift in Sources */,
+				A0787CD423826582006BC1B0 /* QueueController.swift in Sources */,
+				A0787CD123826582006BC1B0 /* ObservableOperation.swift in Sources */,
+				A0787CD323826582006BC1B0 /* AsyncOperation.swift in Sources */,
+				A0787CD023826582006BC1B0 /* Query.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +293,7 @@
 		A0787CC5238252F2006BC1B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 692XSSBS2C;
@@ -276,6 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Aldo-Fuentes.apps.AFAsyncHelpers";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +319,7 @@
 		A0787CC6238252F2006BC1B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 692XSSBS2C;

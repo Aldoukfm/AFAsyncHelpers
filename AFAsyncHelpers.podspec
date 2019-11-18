@@ -1,8 +1,10 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AFAsyncHelpers"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Async helper classes."
+  
+  spec.description  = "Make async operations with promise programming style."
 
   spec.homepage     = "https://github.com/Aldoukfm/AFAsyncHelpers"
   
@@ -19,6 +21,6 @@ Pod::Spec.new do |spec|
   # s.dependency "JSONKit", "~> 1.4"
   # s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
-  s.swift_version = "5"
+  spec.swift_version = "5"
 
 end
